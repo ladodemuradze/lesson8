@@ -1,0 +1,125 @@
+html, body {
+width: 100%;
+height: 100%
+}
+body{
+	width: 100%
+}
+
+/*base*/
+.d-flex {
+display: flex;
+justify-content:space-between;
+align-items: center;
+/*margin: 5%;*/
+}
+
+.p-relative{
+	position: relative;
+}
+.p-absolute{
+	position: absolute;
+}
+
+/*heder*/
+
+.bg-image {
+	position: relative;
+  text-align: center;
+}
+.surati1{
+width: 100%;
+}
+
+.navigation{
+  position: absolute;
+  top: 5%;
+  right: 15%;
+
+
+
+}
+
+.nav-ul{
+display: flex;
+
+}
+.nav-li{
+margin-right: 8%;
+white-space: nowrap;
+}
+
+
+.box2{
+	height: 20%;
+	width: 40%;
+position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-40%, -45%);
+  color:red;
+
+}
+.title1{
+	font-size: 600%
+}
+.paragraf1{
+	font-size: 130%;
+
+	margin: 5%;
+}
+
+.box3{
+
+position: absolute;
+ top: 60%;
+ left: 50%;
+ transform: translate(-60%, -50%);
+ color:red;
+border-radius: 100%;
+  padding: 1%;
+  width: 15%;
+  height: 5%;
+  background-color: blue;
+}
+.title2{
+
+	color: white;
+	white-space: nowrap;
+	margin: 5%;
+}
+
+/*container1*/
+
+.container1{
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.left-box{
+width: 70%;
+}
+
+.title3{
+ font-size: 400%;
+  padding: 10%;
+}
+
+.paragraf2{
+font-size: 130%;
+
+	margin: 0% 10% 0% 10%;
+}
+.button-br{
+
+top: -70%;
+left: -70%;
+transform: translate(70%,70%);
+color:red;
+border-radius: 50%;
+padding: 4%;
+width: 35%;
+height: 7%;
+background-color: blue;
+}
