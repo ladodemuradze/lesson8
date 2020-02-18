@@ -3,7 +3,7 @@ width: 100%;
 height: 100%
 }
 body{
-	width: 100%
+  width: 100%
 }
 
 /*base*/
@@ -14,16 +14,16 @@ align-items: center;
 }
 
 .p-relative{
-	position: relative;
+  position: relative;
 }
 .p-absolute{
-	position: absolute;
+  position: absolute;
 }
 
 /*heder*/
 
 .bg-image {
-	position: relative;
+  position: relative;
   text-align: center;
 }
 .surati1{
@@ -52,8 +52,8 @@ color: #ffff;
 
 
 .box2{
-	height: 20%;
-	width: 40%;
+  height: 20%;
+  width: 40%;
 position: absolute;
   top: 40%;
   left: 45%;
@@ -63,13 +63,13 @@ position: absolute;
 }
 .title1{
   font-family: "Latio", sans-serif;
-	font-size: 600%
+  font-size: 600%
 }
 .paragraf1{
   font-family: "Poppins", sans-serif;
-	font-size: 130%;
+  font-size: 130%;
 
-	margin: 5%;
+  margin: 5%;
 }
 
 .box3{
@@ -86,8 +86,8 @@ position: absolute;
 }
 .title2{
   font-family: "Latio", sans-serif;
-	color: white;
-	white-space: nowrap;
+  color: white;
+  white-space: nowrap;
   padding: 2%;
 }
 
@@ -123,7 +123,7 @@ position: absolute;
   font-family: "Poppins", sans-serif;
 font-size: 130%;
 
-	margin: 0% 10% 0% 10%;
+  margin: 0% 10% 0% 10%;
 }
 .button-br{
 
@@ -172,11 +172,11 @@ margin: 0% 20% 5% 20%;
 
  }
  .umbrella{
- 	font-size:150%;
- 	color: #ffff;
- 	text-align: center;
- 	padding: 4%;
- 	margin: 10%;
+  font-size:150%;
+  color: #ffff;
+  text-align: center;
+  padding: 4%;
+  margin: 10%;
 
 
  }
@@ -190,9 +190,9 @@ margin: 0% 20% 5% 20%;
  }
 .title5{
    font-family: "Latio", sans-serif;
-	font-size: 200%;
-	margin: 5%;
-	text-align: center;
+  font-size: 200%;
+  margin: 5%;
+  text-align: center;
 
 
 }
@@ -265,7 +265,7 @@ transform: translate(-50%, -50%);
   .left-box{  width: 100%;}
   .right-box{ width: 100%;}
   .button-br{width:35%;}
-  .last-box{height: 25%;}
+  .last-box{height: 10%;}
 
 
 }
@@ -274,10 +274,18 @@ transform: translate(-50%, -50%);
   .paragraf1{font-size:110%}
  .box3{ width:20%;}
  .button-br{width: 40%;}
- .last-box{height: 25%;}
+ .last-box{height: 10%;}
  .left-box{  width: 100%;}
  .right-box{ width: 100%;}
 }
+@media (max-width:988px){
+  .title1{font-size: 400%}
+  .paragraf1{font-size:110%}
+ .box3{ width:20%;}
+ .button-br{width: 40%;}
+ .last-box{height: 10%;}
+ .left-box{  width: 100%;}
+ .right-box{ width: 100%;}
 }
 @media (max-width:900px){
  
@@ -294,6 +302,7 @@ transform: translate(-50%, -50%);
   .title4{ font-size: 100%; }
   .paragraf3{font-size: 30%;}
   .paragraf5{font-size: 100%; padding: 6%;}
+  .button-br{width: 20%;}
   .last-box{height: 10%;}
   /*.lasttitle{ font-size: 30%;}*/
 
@@ -301,5 +310,6 @@ transform: translate(-50%, -50%);
   .title4{ font-size: 100%; }
   .paragraf3{font-size: 30%;}
   .paragraf5{font-size: 100%; padding: 6%;}
+  .button-br{width: 10%;}
   .last-box{height: 0px;}
 }
