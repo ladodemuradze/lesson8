@@ -11,7 +11,6 @@ body{
 display: flex;
 justify-content:space-between;
 align-items: center;
-/*margin: 5%;*/
 }
 
 .p-relative{
@@ -35,18 +34,20 @@ width: 100%;
   position: absolute;
   top: 5%;
   right: 15%;
-
-
-
+  display: flex;
 }
 
 .nav-ul{
 display: flex;
 
+
 }
 .nav-li{
+  display: flex;
+font-family: "Poppins", sans-serif;
 margin-right: 8%;
 white-space: nowrap;
+color: #ffff;
 }
 
 
@@ -57,13 +58,15 @@ position: absolute;
   top: 40%;
   left: 45%;
   transform: translate(-40%, -45%);
-  color:red;
+  color:white;
 
 }
 .title1{
+  font-family: "Latio", sans-serif;
 	font-size: 600%
 }
 .paragraf1{
+  font-family: "Poppins", sans-serif;
 	font-size: 130%;
 
 	margin: 5%;
@@ -71,42 +74,53 @@ position: absolute;
 
 .box3{
 
-position: absolute;
+ position: absolute;
  top: 60%;
  left: 50%;
  transform: translate(-60%, -50%);
- color:red;
-border-radius: 100%;
+ border-radius: 17px;
   padding: 1%;
   width: 15%;
   height: 5%;
-  background-color: blue;
+  background-color: #325dff;
 }
 .title2{
-
+  font-family: "Latio", sans-serif;
 	color: white;
 	white-space: nowrap;
-	margin: 5%;
+  padding: 2%;
 }
 
+.burger-icon{
+  display: none;
+
+
+}
 /*container1*/
 
 .container1{
-
-	display: flex;
-	justify-content: flex-end;
+ display: flex;
+ justify-content: space-around;
 }
 
 .left-box{
-width: 70%;
+ width: 100% auto;
+  display: block;
+}
+.right-box{
+   width: 100% auto;
+  display: block;
+
 }
 
 .title3{
- font-size: 400%;
-  padding: 10%;
+  font-family: "Latio", sans-serif;
+ font-size: 350%;
+ padding: 10%;
 }
 
 .paragraf2{
+  font-family: "Poppins", sans-serif;
 font-size: 130%;
 
 	margin: 0% 10% 0% 10%;
@@ -116,10 +130,176 @@ font-size: 130%;
 top: -70%;
 left: -70%;
 transform: translate(70%,70%);
-color:red;
-border-radius: 50%;
-padding: 4%;
-width: 35%;
+border-radius: 17px;
+padding: 2%;
+width: 30%;
 height: 7%;
-background-color: blue;
+background-color: #325dff;
+}
+
+/*container 2 heder*/
+
+.title4{
+  font-family: "Latio", sans-serif;
+ font-size: 400%;
+ padding: 6% 6% 3% 3%;
+ display: flex;
+justify-content:center;
+}
+
+ .paragraf3{
+  font-family: "Poppins", sans-serif;
+font-size:130%;
+text-align:center; 
+margin: 0% 20% 5% 20%;
+ }
+
+ /*conteiner 2*/
+
+ .flex-container{
+   display: flex;
+   justify-content: space-around;
+  flex-wrap: wrap;
+ }
+ .small-box{
+  /*background-color: grey;*/
+  width: 30%;
+  margin: 1%;
+  text-align: center;
+  line-height: 130%;
+  font-size: 100%;
+  box-shadow: -2px -8px 39px -6px rgba(156,156,156,0.71);
+
+ }
+ .umbrella{
+ 	font-size:150%;
+ 	color: #ffff;
+ 	text-align: center;
+ 	padding: 4%;
+ 	margin: 10%;
+
+
+ }
+
+ .circle {
+      width: 60px;
+      height: 60px;
+      background: #325dff;
+      border-radius: 50%
+
+ }
+.title5{
+   font-family: "Latio", sans-serif;
+	font-size: 200%;
+	margin: 5%;
+	text-align: center;
+
+
+}
+
+ .paragraf4{
+  font-family: "Poppins", sans-serif;
+font-size: 140%;
+margin: 20% 15% 20% 15%;
+text-align: center;
+
+ }
+
+/*conteiner3*/
+.wrap-img{
+background-image: url("../img/statia3.jpg");
+height: 700px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+margin-top:10%;
+
+}
+.title6{
+  font-family: "Latio", sans-serif;
+  font-size: 250%;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  
+
+}
+
+ .paragraf5{
+  font-family: "Poppins", sans-serif;
+font-size: 130%;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+/*container 2 heder used container 4 header*/
+/*conteiner 2 used to conteiner 4 */
+/*conteiner 2 used to conteiner 5*/
+
+
+/*footer*/
+.last-box{
+  width: 100%;
+  height: 20%;
+  background-color: #325dff;
+}
+.lasttitle{
+  font-family: "Poppins", sans-serif;
+  padding-top:3.5%;
+  text-align: center;
+  font-size: 120%;
+}
+
+/*responsive*/
+
+@media (max-width:1308px){
+  .title1{font-size: 400%}
+  .paragraf1{font-size:110%}
+  .box3{ width:17%;}
+  .left-box{  width: 100%;}
+  .right-box{ width: 100%;}
+  .button-br{width:35%;}
+  .last-box{height: 25%;}
+
+
+}
+@media (max-width:1128px){
+  .title1{font-size: 400%}
+  .paragraf1{font-size:110%}
+ .box3{ width:20%;}
+ .button-br{width: 40%;}
+ .last-box{height: 25%;}
+ .left-box{  width: 100%;}
+ .right-box{ width: 100%;}
+}
+}
+@media (max-width:900px){
+ 
+    .box2{ width:50%;}
+    .box3{ width:30%;}
+    .button-br{width: 100%;}
+    .title4{ font-size: 300%; }
+    .paragraf3{font-size: 70%; }
+    .button-br{width: 30%;}
+    .last-box{height: 10%;}
+   /* .lasttitle{ font-size: 20%;}*/
+}
+@media (max-width:500px){
+  .title4{ font-size: 100%; }
+  .paragraf3{font-size: 30%;}
+  .paragraf5{font-size: 100%; padding: 6%;}
+  .last-box{height: 10%;}
+  /*.lasttitle{ font-size: 30%;}*/
+
+@media (max-width:320px){
+  .title4{ font-size: 100%; }
+  .paragraf3{font-size: 30%;}
+  .paragraf5{font-size: 100%; padding: 6%;}
+  .last-box{height: 0px;}
 }
